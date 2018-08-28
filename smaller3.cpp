@@ -21,32 +21,32 @@ int main()
 
 	cin >> first;
   
-  cout << "Enter second Number" << endl;
+	cout << "Enter second Number" << endl;
 
 	int second = 0;
 
 	cin >> second;
   
-  cout << "Enter third Number" << endl;
+ 	cout << "Enter third Number" << endl;
 
 	int third = 0;
 
 	cin >> third;
   
-  if (first < second)
-	{
-    if (first < third)
-  	cout << " the small number" << first << endl;
-	}
+	if (first < second)
+  	{
+		if (first < third)
+			cout << " the small number" << first << endl;
+  	}
 	else if (second < first)
 	{
-    if (second < third)
-	  cout << " the small number" << second << endl;
+    		if (second < third)
+	  		cout << " the small number" << second << endl;
 	}
-  else
-  {
-    cout << " the small number" << third << endl;
-  }
+  	else
+  	{
+    		cout << " the small number" << third << endl;
+  	}
 
 }
 
