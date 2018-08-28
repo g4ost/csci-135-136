@@ -5,6 +5,9 @@ Instructor: Gwenael Gatto
 Assignment: Lab 1
 
 Asks the user to input two integer numbers and prints out the smaller of the two.
+cout << " the small number" << second << endl;cout << " the small number" << sec
+cout << " the small number" << second << endl;
+cout << " the small number" << second << endl;
 */
 
 #include <iostream>
