@@ -25,28 +25,17 @@ int main()
 
 	cin >> year;
   
-  cout << "Enter month" << endl;
+  	cout << "Enter month" << endl;
 
 	int month = 0;
 
 	cin >> month;
   
   
-	if (year % 4 != 0)
+	switch (year)
   	{
-    		cout << "Common year" << endl;
-  	}
-	else if (year % 100 != 0)
-  	{
-    		cout << "Leap year" << endl;
-	}	
-  	else if (year % 400 != 0)
-  	{
-    		cout << "Common Year" << endl;
-  	}
-	else
-  	{
-    		cout << "Leap year" << endl;
-  	}
+		case (year % 4 != 0 & month == 2): printf("29 days")
+			break;
+		case (year % 4 != 0 & month % 2 != 0): printf("29 days")
 	
 }
