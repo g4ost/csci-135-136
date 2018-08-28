@@ -33,15 +33,13 @@ int main()
 
 	cin >> third;
   
-	if (first < second)
+	if (first < second & first < third)
   	{
-		if (first < third)
-			cout << " the small number" << first << endl;
+		cout << " the small number" << first << endl;
   	}
-	else if (second < first)
+	else if (second < first & second < third)
 	{
-    		if (second < third)
-	  		cout << " the small number" << second << endl;
+	  	cout << " the small number" << second << endl;
 	}
   	else
   	{
