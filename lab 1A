@@ -24,7 +24,7 @@ int main()
 
 	cin >> second;
   
-  	if (first >= second)
+  	if (first > second)
 	{
   	cout << " the small number" << second << endl;
 	}
