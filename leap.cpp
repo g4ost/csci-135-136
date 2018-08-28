@@ -25,12 +25,12 @@ int main()
 	cin >> year;
   
 	if (year % 4 != 0 & year % 100 != 0 & year % 400 != 0)
-  {
-    cout << "Common year" << endl;
-  }
-  else
-  {
-    cout << "Leap year" << endl;
-  }
+  	{
+    		cout << "Common year" << endl;
+  	}
+  	else
+  	{
+    		cout << "Leap year" << endl;
+  	}
 }
   
