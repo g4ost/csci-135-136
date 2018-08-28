@@ -8,12 +8,9 @@ Write a program smaller3.cpp that asks the user to input three integer numbers, 
 
 (Hint: There are many possible solutions here. One possible strategy: Given numbers x, y, and z, you can first compare x and y, take whichever is smaller and compare it with z.)
 uifgwbgnerhtge
-h
+Write a program leap.cpp that asks the user to input an integer representing a year number (1999, 2016, etc.). If the input year is a leap year according to the modern Gregorian calendar, it should print Leap year, otherwise, print Common year.
 
-ther
-htr
-htr
-
+In the modern Gregorian calendar, a year is a leap year if it is divisible by 4, but century years are not leap years unless they are divisible by 400. Here is the pseudocode:
 */
 
 #include <iostream>
