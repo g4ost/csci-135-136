@@ -53,27 +53,27 @@ int main()
 	
 	if (year % 4 != 0)
   	{
-    		if (month = 1)
+    		if (month == 1)
 			cout << jan << " days" << endl;
-		else if (month = 2)
+		else if (month == 2)
 			cout << feb1 << endl;
-		else if (month = 3)
+		else if (month == 3)
 			cout << mar << endl;
-		else if (month = 4)
+		else if (month == 4)
 			cout << apr << endl;
-		else if (month = 5)
+		else if (month == 5)
 			cout << may << endl;
-		else if (month = 6)
+		else if (month == 6)
 			cout << jun << endl;
-		else if (month = 7)
+		else if (month == 7)
 			cout << jul << endl;
-		else if (month = 8)
+		else if (month == 8)
 			cout << aug << endl;
-		else if (month = 9)
+		else if (month == 9)
 			cout << sep << endl;
-		else if (month = 10)
+		else if (month == 10)
 			cout << oct << endl;
-		else if (month = 11)
+		else if (month == 11)
 			cout << nov << endl;
 		else
 			cout << dec << endl;	
@@ -81,27 +81,27 @@ int main()
 	
 	else if (year % 100 != 0)
   	{
-    		if (month = 1)
+    		if (month == 1)
 			cout << jan << " days" << endl;
-		else if (month = 2)
+		else if (month == 2)
 			cout << feb2 << endl;
-		else if (month = 3)
+		else if (month == 3)
 			cout << mar << endl;
-		else if (month = 4)
+		else if (month == 4)
 			cout << apr << endl;
-		else if (month = 5)
+		else if (month == 5)
 			cout << may << endl;
-		else if (month = 6)
+		else if (month == 6)
 			cout << jun << endl;
-		else if (month = 7)
+		else if (month == 7)
 			cout << jul << endl;
-		else if (month = 8)
+		else if (month == 8)
 			cout << aug << endl;
-		else if (month = 9)
+		else if (month == 9)
 			cout << sep << endl;
-		else if (month = 10)
+		else if (month == 10)
 			cout << oct << endl;
-		else if (month = 11)
+		else if (month == 11)
 			cout << nov << endl;
 		else
 			cout << dec << endl;
@@ -109,54 +109,54 @@ int main()
 		
 	else if (year % 400 != 0)
   	{
-    		if (month = 1)
+    		if (month == 1)
 			cout << jan << " days" << endl;
-		else if (month = 2)
+		else if (month == 2)
 			cout << feb1 << endl;
-		else if (month = 3)
+		else if (month == 3)
 			cout << mar << endl;
-		else if (month = 4)
+		else if (month == 4)
 			cout << apr << endl;
-		else if (month = 5)
+		else if (month == 5)
 			cout << may << endl;
-		else if (month = 6)
+		else if (month == 6)
 			cout << jun << endl;
-		else if (month = 7)
+		else if (month == 7)
 			cout << jul << endl;
-		else if (month = 8)
+		else if (month == 8)
 			cout << aug << endl;
-		else if (month = 9)
+		else if (month == 9)
 			cout << sep << endl;
-		else if (month = 10)
+		else if (month == 10)
 			cout << oct << endl;
-		else if (month = 11)
+		else if (month == 11)
 			cout << nov << endl;
 		else
 			cout << dec << endl;
   	}
 	else
   	{
-    		if (month = 1)
+    		if (month == 1)
 			cout << jan << " days" << endl;
-		else if (month = 2)
+		else if (month == 2)
 			cout << feb2 << endl;
-		else if (month = 3)
+		else if (month == 3)
 			cout << mar << endl;
-		else if (month = 4)
+		else if (month == 4)
 			cout << apr << endl;
-		else if (month = 5)
+		else if (month == 5)
 			cout << may << endl;
-		else if (month = 6)
+		else if (month == 6)
 			cout << jun << endl;
-		else if (month = 7)
+		else if (month == 7)
 			cout << jul << endl;
-		else if (month = 8)
+		else if (month == 8)
 			cout << aug << endl;
-		else if (month = 9)
+		else if (month == 9)
 			cout << sep << endl;
-		else if (month = 10)
+		else if (month == 10)
 			cout << oct << endl;
-		else if (month = 11)
+		else if (month == 11)
 			cout << nov << endl;
 		else
 			cout << dec << endl;
