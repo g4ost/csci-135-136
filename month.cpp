@@ -37,19 +37,19 @@ int main()
 
 	cin >> month;
   	
-	int jan  = 31
-	int feb1 = 28
-	int feb2 = 29
-	int mar  = 31
-	int apr  = 30
-	int may  = 31
-	int jun  = 30
-	int jul  = 31
-	int aug  = 31
-	int sep  = 30
-	int oct  = 31
-	int nov  = 30
-	int dec  = 31
+	int jan  = 31;
+	int feb1 = 28;
+	int feb2 = 29;
+	int mar  = 31;
+	int apr  = 30;
+	int may  = 31;
+	int jun  = 30;
+	int jul  = 31;
+	int aug  = 31;
+	int sep  = 30;
+	int oct  = 31;
+	int nov  = 30;
+	int dec  = 31;
 	
 	if (year % 4 != 0)
   	{
@@ -107,7 +107,7 @@ int main()
 			cout << dec << endl;
 	}
 		
-		else if (year % 400 != 0)
+	else if (year % 400 != 0)
   	{
     		if (month = 1)
 			cout << jan << " days" << endl;
