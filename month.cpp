@@ -11,6 +11,12 @@ trjtrhjeryjeryghw4eyjren5yrne
 gerhjsbvgwerkbvgkhgwjkrgnvsfb
 ergjuhesoghweghlonwekllghwerlk
 eruihlwbnsjkbswjkdbgvsdfkbj.n
+wzexrdctfvygbuhni
+zsexdchfgj hkjlkml
+sxrdctfvygbhjnjml
+rxdctfvygbhnjml
+rxdtcfyvgubhinjmlk
+tdxcfyvgbjhknjlm
 */
 
 #include <iostream>
@@ -25,7 +31,7 @@ int main()
 
 	cin >> year;
   
-  	cout << "Enter month"cout << endl;
+  	cout << "Enter month" << endl;
 
 	int month = 0;
 
