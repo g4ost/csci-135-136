@@ -1,0 +1,38 @@
+1.  Rearrange the following lines of code to produce correct pseudocode for this task
+
+
+Prompt for diameter and read user input
+
+diameter++
+
+diameter++
+
+volume1 =  π × diameter × diameter × diameter / 6
+
+volume2 =  π × diameter × diameter × diameter / 6
+
+volume3 =  π × diameter × diameter × diameter / 6
+
+growth = volume2 - volume1
+
+growth = volume3 - volume2
+
+Print growth
+
+Print growth
+
+
+#include <iostream>
+#include <iomanip>
+#include <cmath> 
+ 
+using namespace std; 
+ 
+int main() 
+{    
+  const double PI = 3.141592653589793;
+  double diameter1, diameter2, diameter3;
+  double volume1, volume2, volume3;
+  double growth1, growth2, result;
+  
+  cout << "Diameter: ";    cin >> diameterOne;    volumeOne = PI * diameterOne * diameterOne * diameterOne / 6;    diameterTwo =  diameterOne + 1;    volumeTwo = PI * diameterTwo * diameterTwo * diameterTwo / 6;    growthOne = volumeTwo - volumeOne;    result = round(growthOne);    cout << "Increase: " << result << endl;    diameterThree = diameterTwo + 1;    volumeThree = PI * diameterThree * diameterThree * diameterThree / 6;    growthTwo = volumeThree - volumeTwo;    result = round(growthTwo);    cout << "Increase: " << result << endl;        return 0; } 
