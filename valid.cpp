@@ -30,7 +30,7 @@ int main()
     cout << "gimme number" << endl;
     cin >> number;
   
-    while ( number !< 100 && number !< 0 )
+    while ( number > 100 && number < 0 )
     {
       cout << "Please re-enter: " << endl;
     }
