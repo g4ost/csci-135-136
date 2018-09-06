@@ -25,22 +25,22 @@ using namespace std;
 
 int main() 
 {
-  int number = 0;
-  int num = 0;
-  cout << "gimme number" << endl;
-  cin >> number;
+    int number = 0;
+    int num = 0;
+    cout << "gimme number" << endl;
+    cin >> number;
   
-  while ( number !< 100 && number !< 0 )
-  {
-    cout << "Please re-enter: " << endl;
-  }
+    while ( number !< 100 && number !< 0 )
+    {
+      cout << "Please re-enter: " << endl;
+    }
   
-  while ( number < 100 && number < 0 )
-  {
-    num = number * number;
-    cout << "Number squared is: " << endl;
-  }
-  return 0;
+    while ( number < 100 && number < 0 )
+    {
+      num = number * number;
+      cout << "Number squared is: " << endl;
+    }
+    return 0;
 }
   
   
