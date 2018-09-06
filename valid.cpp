@@ -39,10 +39,10 @@ int main()
     while ( number < 100 || number > 0 )
     {
         num = number * number;
+        cout << "Number squared is: " << num << endl;
     }
-    cout << "Number squared is: " << num << endl;
+    
 }
-  
   
     
   
