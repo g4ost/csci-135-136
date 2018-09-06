@@ -30,15 +30,15 @@ int main()
     cout << "gimme number" << endl;
     cin >> number;
   
-    while ( number > 100 && number < 0 )
+    while ( number > 100 && number > 0 )
     {
-      cout << "Please re-enter: " << endl;
+        cout << "Please re-enter: " << endl;
     }
   
     while ( number < 100 && number < 0 )
     {
-      num = number * number;
-      cout << "Number squared is: " << endl;
+        num = number * number;
+        cout << "Number squared is: " << num << endl;
     }
     return 0;
 }
