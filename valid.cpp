@@ -25,4 +25,16 @@ using namespace std;
 
 int main() 
 {
+  int number = 0;
+  int 
+  cout << "gimme number" << endl;
+  cin >> number;
+  
+  while ( number < 100 && number < 0 )
+  {
+    
+  }
+  
+    
+  
   
