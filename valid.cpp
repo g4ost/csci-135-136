@@ -40,7 +40,6 @@ int main()
         num = number * number;
         cout << "Number squared is: " << num << endl;
     }
-    return 0;
 }
   
   
