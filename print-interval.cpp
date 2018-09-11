@@ -32,8 +32,8 @@ int main()
     
     cout << "enter U" << endl;
     cin >> U;
-
-    for (i = L, i < U, i++);
+    
+    for (int i=L; i < U; i++)
     {
         cout << i << endl;
     }
