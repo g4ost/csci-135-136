@@ -30,13 +30,13 @@ int main()
     cout << "gimme number" << endl;
     cin >> number;
   
-    if ( number > 100 || number < 0 )
+    if ( number < 0 || number > 100 )
     {
         cout << "Please re-enter: " << endl;
         cin >> number;
     }
   
-    if ( number < 100 && number > 0 )
+    if ( number > 0 && number < 100 )
     {
         num = number * number;
         cout << "Number squared is: " << num << endl;
