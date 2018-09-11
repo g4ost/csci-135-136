@@ -32,10 +32,9 @@ int main()
   
     if ( number < 0 || number > 100 )
     {
-        cout << "Please re-enter: " << endl;
-        cin >> number;
+        cout << "Please re-enter: " << endl;       
     }
-  
+    cin >> number;
     if ( number > 0 && number < 100 )
     {
         num = number * number;
