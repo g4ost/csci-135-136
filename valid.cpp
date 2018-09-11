@@ -34,12 +34,14 @@ int main()
     {
         cout << "Please re-enter: " << endl;
         cin >> number;
+        break;
     }
   
     while ( number < 100 || number > 0 )
     {
         num = number * number;
         cout << "Number squared is: " << num << endl;
+        break;
     }
     
 }
