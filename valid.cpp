@@ -18,7 +18,6 @@ xgdfchvjbknlgxdfchvjbk5
 
 After a valid value is obtained, print this number n squared.
 */
-
 #include <iostream>
 
 using namespace std;
@@ -30,11 +29,12 @@ int main()
     cout << "gimme number" << endl;
     cin >> number;
   
-    if ( number < 0 || number > 100 )
+    while ( number < 0 || number > 100 )
     {
-        cout << "Please re-enter: " << endl;       
+        cout << "Please re-enter: " << endl;      
+		cin >> number; 
     }
-    cin >> number;
+    
     if ( number > 0 && number < 100 )
     {
         num = number * number;
