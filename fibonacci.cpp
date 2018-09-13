@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;4
+using namespace std;
 //dfd
 //dfdfd
 ///fddfdf
