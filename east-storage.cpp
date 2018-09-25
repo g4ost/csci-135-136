@@ -15,7 +15,6 @@ that asks the user to input a string representing the date
 ///rreggerg
 */
 
-
 #include <iostream> // includes the file iostream
 #include <cstdlib>
 #include <fstream>
@@ -23,6 +22,10 @@ using namespace std; // indicates that we are using the standard names
 
 int main() 
 {
+	string DAAATTE;
+	cout << "gimme date";
+	cin >> DAAATTE;
+	
 		
 	ifstream fin("Current_Reservoir_Levels.tsv");
 	if (fin.fail()) 
@@ -37,6 +40,9 @@ int main()
 	
 	while(fin >> date >> eastSt >> eastEl >> westSt >> westEl) 
 	{ 
+	
+		date = DAAATTE;
+		
     // this loop reads the file line-by-line
     // extracting 5 values on each iteration 
 
@@ -50,4 +56,5 @@ int main()
 	
 
 return 0;	
+
 }
