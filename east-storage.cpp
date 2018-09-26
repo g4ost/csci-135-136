@@ -10,51 +10,50 @@ that asks the user to input a string representing the date
 //dfgddgdgdfgd
 ///feregerge
 //eredrgeergegeg
-//ergeegerer
-//regegegegergeg
-///rreggerg
-*/
+//ergeegerer//Stanley Gao
+//Lab 3
+//Task A
+
 
 #include <iostream> // includes the file iostream
-#include <cstdlib>
 #include <fstream>
+#include <cstdlib>
+#include <climits>
 using namespace std; // indicates that we are using the standard names
 
 int main() 
 {
-	string DAAATTE;
-	cout << "gimme date";
-	cin >> DAAATTE;
 	
 		
 	ifstream fin("Current_Reservoir_Levels.tsv");
 	if (fin.fail()) 
 	{
-		
-    cerr << "File cannot be opened for reading." << endl;
-    exit(1); // exit if failed to open the file
+    	cerr << "File cannot be opened for reading." << endl;
+    	exit(1); // exit if failed to open the file
 	}
+
 	
 	string junk;        // new string variable
 	getline(fin, junk); // read one line from the file 
 	
-	while(fin >> date >> eastSt >> eastEl >> westSt >> westEl) 
-	{ 
-	
-		date = DAAATTE;
-		
+	string date;
+	string ate;
+	double eastSt, eastEl, westSt, westEl;
+	cout << "gimme date";
+	cin >> ate;
+	while(fin >> date >> eastSt >> eastEl  >> westSt >> westEl)
+	{
+		if (ate == date)
+		{
+			cout << eastSt << endl;
+		}
     // this loop reads the file line-by-line
     // extracting 5 values on each iteration 
-
-    // for example, to print the date and East basin storage:
-    cout << date << " " << eastSt << endl;
     
 	}
+    // for example, to print the date and East basin storage:
+
 	
 	fin.close();
-
 	
-
-return 0;	
-
 }
